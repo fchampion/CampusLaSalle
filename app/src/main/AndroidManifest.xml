@@ -19,7 +19,8 @@
         <activity
             android:name=".activities.GroupeActivity"
             android:label="@string/title_activity_groupe"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.ListActivity"></activity>
     </application>
 
 </manifest>

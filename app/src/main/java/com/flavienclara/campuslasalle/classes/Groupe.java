@@ -25,18 +25,14 @@ public class Groupe {
 
     //getter et setter
     public int getId() {return id;}
-
     public void setId(int id) {this.id = id;}
 
     public String getNom() {return nom;}
-
     public void setNom(String nom) {this.nom = nom;}
 
     public int getNbPoint() {return nbPoint;}
-
     public void setNbPoint(int nbPoint) {this.nbPoint = nbPoint;}
 
     public int getCode() {return code;}
-
     public void setCode(int code) {this.code = code;}
 }
