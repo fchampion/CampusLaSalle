@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.flavienclara.campuslasalle.activities.ListActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="page de la liste"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="135dp" />
 </android.support.constraint.ConstraintLayout>
