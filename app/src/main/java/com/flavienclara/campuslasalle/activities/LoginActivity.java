@@ -4,13 +4,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.flavienclara.campuslasalle.ADO.ElementADO;
 import com.flavienclara.campuslasalle.R;
 import com.flavienclara.campuslasalle.classes.CategorieElement;
 import com.flavienclara.campuslasalle.classes.Element;
@@ -68,9 +68,10 @@ public class LoginActivity extends AppCompatActivity {
 //                }
             }
         });
+    }
 
     //BDD
-        public void insertSQLiteData(){
+    public void insertSQLiteData() {
         CategorieElementADO catADO = new CategorieElementADO();
         ElementADO elementADO = new ElementADO();
 
@@ -117,7 +118,6 @@ public class LoginActivity extends AppCompatActivity {
         e6.setNom("Soeur Marie-Thérèse");
         e6.setCategorieId(cat1.getId());
         e6.setId(ElementADO.insert(e6));
-
 
         //créations d'elements Armes
         Element a1 = new Element();
